@@ -634,3 +634,39 @@ span{
   background-color: #47cce9;
   color: #111;
 }
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login-container h2,
+.login-container form,
+.login-container .contnue-login,
+.login-container .social-buttons,
+.login-container .signup-text {
+  margin-bottom: 15px;
+}
+
+.login-container form input,
+.login-container form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.login-container .forgot-password {
+  display: block;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.login-container {
+  margin: 80px auto;
+  text-align: center;
+}
+
+.login-container h2,
+.login-container p {
+  color: white;
+}
+
