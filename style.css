@@ -110,7 +110,7 @@ body {
   font-size: 70px;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  /* margin-top: 150px; */
+  margin-top: 150px;
   padding: 50px;
   background: linear-gradient(to right, #00f3ff 0%, #b967ff 70%);
   -webkit-text-fill-color: transparent;
@@ -493,62 +493,69 @@ textarea:focus {
   opacity: 0.8;
 }
 
-/* .tournmt-prgph {
-  color: white;
-
-}
-
-.tournmt h2 {
-  font-size: 50px;
+.tournament-card {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: linear-gradient(to right, #00f3ff 0%, #b967ff 70%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 100px;
+  padding: 20px;
 }
-.tournmt p{
-  font-size: 18px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #d4d4d4;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-}
-.tournmt-card{
-  background-color: white;
-  
-} */
-.tournament-card{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-margin-top: 100px;
 
+.cardone {
+  width: 205px;
+  background-color: #262c3b;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
-.card1{
-width: 325px;
-background-color: #262c3b;
-border-radius: 8px;
-overflow: hidden;
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-margin: 20px;
-}
-.card1 img{
+
+.cardone img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
 }
-.card-cntnt{
+
+.card-cntnt {
   padding: 16px;
 }
-.card-cntnt h3{
-  font-size: 20px;
+
+.card-cntnt h3 {
+  color: #fdfdfd;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
   margin-bottom: 8px;
 }
-.card-cntnt p{
-  color: white;
+span{
+  color: #00cfff;
+}
+.card-cntnt p {
+  color:gray;
   font-size: 15px;
 }
+
 .card-cntnt p img {
-width: 20px;
-height: 20px;  
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.join_btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #00f3ff;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+   background: linear-gradient(to right, #00cfff, #b300ff);
+  box-shadow: 0 0 10px #47cce9, 0 0 20px #47cce9;
+}
+
+.joinbtn:hover {
+  background-color: #00c2cc;
 }
